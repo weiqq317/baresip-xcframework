@@ -74,6 +74,7 @@ build_libre() {
         -DCMAKE_INSTALL_PREFIX="$OUTPUT_DIR"
         -DCMAKE_OSX_DEPLOYMENT_TARGET="$MIN_VERSION"
         -DUSE_OPENSSL=OFF
+        -DBUILD_TESTING=OFF
     )
     
     # 根据平台设置系统名称
