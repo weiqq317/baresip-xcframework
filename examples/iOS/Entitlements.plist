@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- PushKit 权限 -->
+    <key>com.apple.developer.pushkit</key>
+    <true/>
+    
+    <!-- 后台模式 -->
+    <key>com.apple.developer.background-modes</key>
+    <array>
+        <string>voip</string>
+        <string>fetch</string>
+        <string>remote-notification</string>
+        <string>audio</string>
+    </array>
+    
+    <!-- 网络权限（如需要） -->
+    <key>com.apple.developer.networking.networkextension</key>
+    <array>
+        <string>packet-tunnel-provider</string>
+    </array>
+</dict>
+</plist>

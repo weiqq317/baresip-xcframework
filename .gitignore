@@ -1,0 +1,81 @@
+# Baresip XCFramework .gitignore
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Build artifacts
+build/
+output/
+*.o
+*.a
+*.so
+*.dylib
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+*.swiftpm
+
+# CocoaPods
+Pods/
+*.podspec
+
+# Carthage
+Carthage/Build/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.#*
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.out
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Baresip source downloads
+build/libre-src/
+build/librem-src/
+build/baresip-src/
+build/*.tar.gz
+build/xcframework-temp/
